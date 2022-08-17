@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,7 +13,7 @@
             <objects>
                 <viewController id="QI4-fm-44t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ng1-hH-syW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbn-aU-R9w">
@@ -62,15 +63,16 @@
                         <viewLayoutGuide key="safeArea" id="W1o-2H-0ha"/>
                         <color key="backgroundColor" red="0.98225000770000004" green="0.99668468129999999" blue="0.84075011870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="h94-n5-hDm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YmP-LT-FbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="841" y="61"/>
         </scene>
-        <!--Schedule View Controller-->
+        <!--View Controller-->
         <scene sceneID="JqA-BV-caR">
             <objects>
-                <viewController id="BzU-oD-3pW" customClass="scheduleViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BzU-oD-3pW" customClass="ViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BmN-oe-9JY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,55 +154,40 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPS-vG-Q4p">
-                                <rect key="frame" x="20" y="583" width="57" height="35"/>
+                                <rect key="frame" x="20" y="572" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="29"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2d-yK-v6I">
-                                <rect key="frame" x="20" y="626" width="57" height="35"/>
+                                <rect key="frame" x="20" y="615" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="29"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDK-RE-JgK">
-                                <rect key="frame" x="20" y="674" width="57" height="35"/>
+                                <rect key="frame" x="20" y="658" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="29"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjr-iw-1G7">
-                                <rect key="frame" x="20" y="725" width="57" height="35"/>
+                                <rect key="frame" x="20" y="701" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="29"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbO-EP-8ni">
-                                <rect key="frame" x="20" y="779" width="57" height="35"/>
+                                <rect key="frame" x="20" y="744" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="29"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkT-rV-vpz">
-                                <rect key="frame" x="295" y="792" width="99" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home">
-                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="30"/>
-                                    <color key="baseForegroundColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XaU-fB-G1n">
-                                <rect key="frame" x="87" y="214" width="288" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KdX-T3-tAe">
                                 <rect key="frame" x="87" y="256" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -208,67 +195,97 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKx-iv-h3j">
-                                <rect key="frame" x="97" y="342" width="288" height="34"/>
+                                <rect key="frame" x="87" y="342" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="94q-ON-j5f">
-                                <rect key="frame" x="97" y="384" width="288" height="34"/>
+                                <rect key="frame" x="87" y="384" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0RT-MA-K76">
-                                <rect key="frame" x="97" y="298" width="288" height="34"/>
+                                <rect key="frame" x="89" y="298" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHI-zp-q4d">
-                                <rect key="frame" x="82" y="428" width="288" height="34"/>
+                                <rect key="frame" x="87" y="429" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kuk-ot-1eI">
-                                <rect key="frame" x="82" y="470" width="288" height="34"/>
+                                <rect key="frame" x="87" y="471" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qAR-md-bzj">
-                                <rect key="frame" x="92" y="530" width="288" height="34"/>
+                                <rect key="frame" x="92" y="529" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uq2-D0-Tim">
-                                <rect key="frame" x="92" y="583" width="288" height="34"/>
+                                <rect key="frame" x="92" y="573" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gpR-hf-MDs">
-                                <rect key="frame" x="92" y="640" width="288" height="34"/>
+                                <rect key="frame" x="92" y="616" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUG-Go-S5L">
-                                <rect key="frame" x="92" y="682" width="288" height="34"/>
+                                <rect key="frame" x="92" y="659" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gQn-Yx-2Gd">
-                                <rect key="frame" x="82" y="724" width="288" height="34"/>
+                                <rect key="frame" x="92" y="701" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7nZ-l7-7hJ">
-                                <rect key="frame" x="92" y="779" width="288" height="34"/>
+                                <rect key="frame" x="92" y="745" width="288" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkT-rV-vpz">
+                                <rect key="frame" x="295" y="787" width="99" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QI4-fm-44t" kind="show" id="A1f-gm-06s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YS2-0h-Xg6">
+                                <rect key="frame" x="299" y="20" width="91" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Clear">
+                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clearButton:" destination="BzU-oD-3pW" eventType="touchUpInside" id="lWu-W7-kBI"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="maV-eg-blk">
+                                <rect key="frame" x="92" y="213" width="283" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -278,6 +295,22 @@
                         <color key="backgroundColor" red="0.98225000770000004" green="0.99668468129999999" blue="0.84075011870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bL6-iH-pVD"/>
+                    <connections>
+                        <outlet property="textEight" destination="Kuk-ot-1eI" id="sAw-7j-Phe"/>
+                        <outlet property="textEleven" destination="gpR-hf-MDs" id="jb3-aL-VmX"/>
+                        <outlet property="textFive" destination="HKx-iv-h3j" id="C7x-HC-Jxz"/>
+                        <outlet property="textFour" destination="0RT-MA-K76" id="fFU-FU-rc5"/>
+                        <outlet property="textFourteen" destination="7nZ-l7-7hJ" id="qRy-Jv-2aM"/>
+                        <outlet property="textNine" destination="qAR-md-bzj" id="GCf-gG-B38"/>
+                        <outlet property="textOne" destination="VLz-Xd-al0" id="dha-MD-IiS"/>
+                        <outlet property="textSeven" destination="vHI-zp-q4d" id="ZcB-kz-o15"/>
+                        <outlet property="textSix" destination="94q-ON-j5f" id="cCe-4r-EQO"/>
+                        <outlet property="textTen" destination="Uq2-D0-Tim" id="rTA-s1-YsT"/>
+                        <outlet property="textThirteen" destination="gQn-Yx-2Gd" id="PNE-8V-dum"/>
+                        <outlet property="textThree" destination="KdX-T3-tAe" id="EoH-fa-6qb"/>
+                        <outlet property="textTwelve" destination="tUG-Go-S5L" id="sv9-Ep-oiF"/>
+                        <outlet property="textTwo" destination="maV-eg-blk" id="GXM-gN-LZD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTe-5l-TBi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -404,6 +437,9 @@
                                     <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QI4-fm-44t" kind="show" id="oxA-5z-C9l"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x02-ur-T5k"/>
@@ -652,7 +688,18 @@
                                     <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QI4-fm-44t" kind="show" id="vyF-qL-bAl"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HFd-EH-2w0">
+                                <rect key="frame" x="25" y="586" width="364" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dvC-jj-ZiY"/>
                         <color key="backgroundColor" red="0.98225000770000004" green="0.99668468129999999" blue="0.84075011870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -664,7 +711,16 @@
             <point key="canvasLocation" x="3311.594202898551" y="60.9375"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="A1f-gm-06s"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="c897ec3e57728ea70010c480ba5bb8f9--exercise-calendar-binder-planner" width="700" height="541"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
