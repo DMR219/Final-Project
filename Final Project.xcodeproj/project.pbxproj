@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0568B7A528AD385000ACCC6C /* scheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568B7A428AD385000ACCC6C /* scheduleViewController.swift */; };
+		8205666228AE9B9800647F62 /* todoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8205666128AE9B9800647F62 /* todoListViewController.swift */; };
 		82EFDE3728AC1BF800F25A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EFDE3628AC1BF800F25A40 /* AppDelegate.swift */; };
 		82EFDE3928AC1BF800F25A40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EFDE3828AC1BF800F25A40 /* SceneDelegate.swift */; };
 		82EFDE3B28AC1BF800F25A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EFDE3A28AC1BF800F25A40 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0568B7A428AD385000ACCC6C /* scheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleViewController.swift; sourceTree = "<group>"; };
+		8205666128AE9B9800647F62 /* todoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoListViewController.swift; sourceTree = "<group>"; };
 		82EFDE3328AC1BF800F25A40 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EFDE3628AC1BF800F25A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82EFDE3828AC1BF800F25A40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				82EFDE3828AC1BF800F25A40 /* SceneDelegate.swift */,
 				82EFDE3A28AC1BF800F25A40 /* ViewController.swift */,
 				82EFDE3C28AC1BF800F25A40 /* Main.storyboard */,
+				8205666128AE9B9800647F62 /* todoListViewController.swift */,
 				0568B7A428AD385000ACCC6C /* scheduleViewController.swift */,
 				82EFDE3F28AC1BFB00F25A40 /* Assets.xcassets */,
 				82EFDE4128AC1BFB00F25A40 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				82EFDE3B28AC1BF800F25A40 /* ViewController.swift in Sources */,
 				82EFDE3728AC1BF800F25A40 /* AppDelegate.swift in Sources */,
+				8205666228AE9B9800647F62 /* todoListViewController.swift in Sources */,
 				82EFDE3928AC1BF800F25A40 /* SceneDelegate.swift in Sources */,
 				0568B7A528AD385000ACCC6C /* scheduleViewController.swift in Sources */,
 			);
