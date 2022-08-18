@@ -441,6 +441,13 @@
                                     <segue destination="QI4-fm-44t" kind="show" id="oxA-5z-C9l"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOI-EG-uSf">
+                                <rect key="frame" x="317" y="44" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x02-ur-T5k"/>
                         <color key="backgroundColor" red="0.98225000770000004" green="0.99668468129999999" blue="0.84075011870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -718,7 +725,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vyF-qL-bAl"/>
+        <segue reference="oxA-5z-C9l"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="c897ec3e57728ea70010c480ba5bb8f9--exercise-calendar-binder-planner" width="700" height="541"/>
