@@ -52,9 +52,8 @@
                                     <segue destination="3g1-zx-la2" kind="show" id="vVk-rE-5n2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Alacrity!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekY-bN-B0b">
-                                <rect key="frame" x="38" y="315" width="337" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Alacrity!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekY-bN-B0b">
+                                <rect key="frame" x="0.0" y="325" width="414" height="48"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
                                 <color key="textColor" red="0.83839885319999996" green="0.69015615029999999" blue="0.99668468129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -62,12 +61,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="W1o-2H-0ha"/>
                         <color key="backgroundColor" red="0.98225000770000004" green="0.99668468129999999" blue="0.84075011870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ekY-bN-B0b" firstAttribute="top" secondItem="W1o-2H-0ha" secondAttribute="top" constant="281" id="GxW-fs-rme"/>
+                            <constraint firstAttribute="trailing" secondItem="ekY-bN-B0b" secondAttribute="trailing" id="ItN-KS-7nG"/>
+                            <constraint firstItem="ekY-bN-B0b" firstAttribute="leading" secondItem="W1o-2H-0ha" secondAttribute="leading" id="WRv-og-ATH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="h94-n5-hDm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YmP-LT-FbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="841" y="61"/>
+            <point key="canvasLocation" x="840.57971014492762" y="60.9375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JqA-BV-caR">
